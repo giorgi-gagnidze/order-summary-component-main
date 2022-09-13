@@ -1,44 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./CSS/style.css" />
-    <title>Order summary card</title>
-  </head>
-  <body>
-    <main class="main__container">
-      <div class="main__container-second">
-        <article class="article__container">
-          <h1 class="title__text">Order Summary</h1>
-          <p class="article__text">
-            You can now listen to millions of songs, audiobooks, and podcasts on
-            any device anywhere you like!
-          </p>
-        </article>
-        <div>
-          <div><img src="./images/icon-music.svg" alt="music" /></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./CSS/style.css" />
+  <title>Order summary card</title>
+</head>
+
+<body>
+  <main class="main__container">
+    <div class="main__container-second">
+      <article class="article__container">
+        <h1 class="title__text">Order Summary</h1>
+        <p class="article__text">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+      </article>
+      <div class="plan__container">
+        <div class="price__container">
+          <div><img src="./images/icon-music.svg" alt="music" class="music__img" /></div>
           <div>
-            <p>Annual Plan</p>
-            <p>$59.99/year</p>
+            <p class="plan__text">Annual Plan</p>
+            <p class="price__text">$59.99/year</p>
           </div>
-          <div>Change</div>
         </div>
-        <button>Proceed to Payment</button>
-        <div>Cancel Order</div>
+        <div class="change__container"><a href="#">Change</a></div>
       </div>
-    </main>
-  </body>
+      <button class="btn">Proceed to Payment</button>
+      <div>Cancel Order</div>
+    </div>
+  </main>
+</body>
+
 </html>
